@@ -39,3 +39,8 @@ Continuer à partir du dernier CR, pas à partir de nouvelles inventions spectac
 ## 2026-11-01 — Passage à une gestion de recherche itérative
 - Quatre issues GitHub ouvertes (#1 à #4) pour conserver hypothèses, preuves exigées, risques et critères d'acceptation.
 - Dernier workflow de vérification des tests et du catalogue : succès. Les travaux futurs devront ajouter les sources et preuves au CR suivant, sans déclarer l'autonomie du projet en arrière-plan.
+
+## 2026-11-01 — Demande de poursuivre et croiser les anciens brevets
+**Utilisateur (verbatim)** : « Recherche plus loin. Plus en profondeur. Et peut-être en assemblant plusieurs brevets ensemble ».
+**Utilisateur (verbatim, après interruption)** : « t'as crash, reprends ».
+**Assistant (synthèse factuelle, non verbatim)** : reprise après vérification de main ; constitution de 10 assemblages, ajout de FR2378958A1 au corpus, CR04, références indépendantes, étude de 3 bilans avec 15 sorties CSV, tests unitaires et intégration CI. Aucun prototype réel ni libre exploitation affirmé.

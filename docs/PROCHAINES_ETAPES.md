@@ -46,3 +46,13 @@ Aucun « prêt pour production », aucune sécurité garantie, aucun statut libr
 ## Garantie de continuité
 - [x] Introduire un garde-fou machine : tests de modèles + vérification hors ligne du catalogue et des chemins documentaires.
 - [ ] Ajouter vérification des identifiants de publication via API bibliographique (avec cache, limites de débit et provenance), sans dépendre d'une requête réseau non reproductible lors des tests unitaires.
+
+## Phase 04 : architectures hybrides (2026-11-01)
+- [x] Identifier dix assemblages et rechercher la nouveauté déjà revendiquée, notamment US4285702A rev.15.
+- [x] Inclure FR2378958A1 (1978) : pompage des vagues vers accumulateur hydraulique.
+- [x] Trois bilans conservatifs et CSV sous hypothèses fictives, avec tests Python.
+- [ ] C01 : protocole factoriel : sorbant fixe ; PCM oui/non ; caloduc oui/non, météo et cycles appariés, protocole gelé.
+- [ ] C03 : récupérer séries pression/débit de Mi et al. (2023) ; comparer commande fixe/variable avec saline marine, récupération Clark, coûts et contrôle de surpression.
+- [ ] C08 : vérifier chaleur de rejet utile selon sorbant, débits et températures mesurés ; comparaison cogénération vs chaleur directe.
+- [ ] C09 : modéliser **chaîne complète** de désorption vibratoire jusqu'à eau potable collectée ; rejeter si comparateur thermique moderne meilleur.
+- [ ] Identifier des brevets hors énergie et eau pour éviter biais du corpus.

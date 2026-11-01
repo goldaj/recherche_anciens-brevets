@@ -3,7 +3,7 @@
 **Programme de recherche démarré le 1er novembre 2026.** Objectif : identifier des inventions anciennes dont les contraintes techniques, économiques ou réglementaires ont changé, puis **tenter de réfuter** l'hypothèse qu'une réutilisation moderne présente un intérêt. Un brevet ancien n'est pas une démonstration de faisabilité.
 
 ## Avancement vérifiable
-- **20 documents de brevet identifiés**, avec liens permanents, hypothèses et limites dans [le catalogue](data/candidats.csv). Niveau actuel : *tri documentaire*, pas validation industrielle.
+- **21 documents de brevet identifiés**, avec liens permanents, hypothèses et limites dans [le catalogue](data/candidats.csv). Niveau actuel : *tri documentaire*, pas validation industrielle.
 - Revues documentaires successives : [CR 01, 12 brevets](docs/CR_2026-11-01_REVUE_01.md), [CR 02, 8 brevets supplémentaires](docs/CR_2026-11-01_REVUE_02.md) et [CR 03, confrontation aux essais récents](docs/CR_2026-11-01_REVUE_03.md).
 - Troisième étude de comparaison : [osmose inverse entraînée par la houle](etudes/dessalement-vagues/ETUDE_03.md), avec [simulateur de pression et débit](etudes/dessalement_vagues/ro_pressure_budget.py), [tests](tests/test_ro_pressure_budget.py).
 - Deuxième étude de falsification : [eau atmosphérique et hydroélectricité](etudes/eau-atmospherique/ETUDE_02.md), avec [calculateur](etudes/eau_atmospherique/gravity_budget.py) et [tests](tests/test_gravity_budget.py).
@@ -30,6 +30,18 @@ Les prochains dossiers possèdent des **issues GitHub** avec hypothèses et crit
 - [#4 — Corpus à 30 brevets, diversification sectorielle](https://github.com/goldaj/recherche_anciens-brevets/issues/4)
 
 Cette liste est un plan de recherche versionné, **pas** une exécution automatique continue entre conversations. Voir aussi [le backlog](docs/PROCHAINES_ETAPES.md).
+
+## Nouvelle phase : combiner les brevets, puis chercher à réfuter
+- [CR 04 — Assemblages de brevets](docs/CR_2026-11-01_REVUE_04_ASSEMBLAGES.md), [matrice de 10 architectures](docs/MATRICE_ASSEMBLAGES.md) et [données structurées](data/combinaisons.csv).
+- [Étude 04 : trois bilans physiques contradictoires](etudes/combinaisons/ETUDE_04_BILANS.md), [script reproductible](etudes/combinaisons/hybrid_budgets.py), [CSV des 15 résultats](resultats/assemblages_scenarios.csv).
+- [Registre des sources originales et essais récents](docs/SOURCES_ASSEMBLAGES.md). Une architecture composite déjà décrite ne constitue pas une nouvelle invention.
+
+### Exécution
+```bash
+python3 -m unittest discover -s tests -v
+python3 -m etudes.combinaisons.hybrid_budgets
+python3 tools/check_repository.py
+```
 
 ## Discipline
 1. Lire brevet + revendications + famille + statut légal territorial ; ne jamais déduire la liberté d'exploitation d'un simple champ « expired ».

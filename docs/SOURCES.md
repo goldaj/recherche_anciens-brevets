@@ -59,3 +59,6 @@ Associer chaque chiffre à *valeur, unité, plage, publication, page/table, cont
 - [Revue *Results in Engineering*, 2026, DOI:10.1016/j.rineng.2026.110278](https://doi.org/10.1016/j.rineng.2026.110278) : recommande des métriques comparables pour capture eau atmosphérique, exige rapporter conditions météo, quantité d'adsorbant, consommation électrique + thermique, qualité de l'eau et coût.
 - [Étude iScience, 2025, DOI:10.1016/j.isci.2025.112160](https://doi.org/10.1016/j.isci.2025.112160) : modélisation géographique de récupération d'eau atmosphérique, souligne dépendance climatique ; les pourcentages d'aire mondiale ne doivent pas être convertis en rendements locaux.
 - [Revue 2026 sur l'exploitation industrielle du SWRO, DOI:10.1016/j.dwt.2026.101814](https://doi.org/10.1016/j.dwt.2026.101814) : pression opérationnelle SWRO ~50–70 bar pour eau de mer salinité ~35 g/L, dépend du procédé ; cas prototypes plus optimisés ne représentent pas automatiquement le rendement industriel.
+
+## Ajout 2026-11-01, nouvelle publication ancienne
+- P21 : [FR2378958A1, 1978](https://patents.google.com/patent/FR2378958A1/en), flotteur oscillant, pompes à piston et accumulateur hydraulique ; archivé comme nouvelle entrée du [catalogue](../data/candidats.csv). [Sources indépendantes et assemblages](SOURCES_ASSEMBLAGES.md).

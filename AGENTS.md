@@ -23,3 +23,6 @@ Après chaque recherche, créer un CR daté distinguant **faits vérifiés / hyp
 
 ## Sécurité
 Dépôt public : pas d'identifiants, secrets, informations privées ou documents sous licence non redistribuable. Les brevets donnent des descriptions techniques, pas une validation de sûreté. Pour tout appareil sous pression, cryogénique, électromagnétique ou à haute vitesse de rotation, commencer par une étude papier et une revue des dangers, non par une fabrication improvisée.
+
+## Croisement de brevets (phase du 2026-11-01)
+Lire `docs/MATRICE_ASSEMBLAGES.md`, `docs/SOURCES_ASSEMBLAGES.md` et le CR04 avant d'ajouter des idées. Chercher dans les **revendications historiques** et essais modernes l'antériorité de chaque couplage. Chiffrer chaque interface (température, pression, débit, rendement) et ne pas valider une combinaison grâce aux performances d'une seule étape.

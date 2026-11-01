@@ -20,3 +20,5 @@ jobs:
         run: |
           python etudes/eau_atmospherique/gravity_budget.py --head-m 200 --liters-per-day 10 --efficiency 0.6 --fan-w 1.0
           python etudes/dessalement_vagues/ro_pressure_budget.py --pressure-psi 800 --recovery 0.4 --pump-efficiency 0.85
+      - name: Reproduire les calculs hybrides
+        run: python -m etudes.combinaisons.hybrid_budgets --out /tmp/assemblages_scenarios.csv
