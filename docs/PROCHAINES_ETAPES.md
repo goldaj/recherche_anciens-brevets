@@ -3,6 +3,8 @@
 ## Immédiat, ordre de valeur de preuve
 - [x] Conserver intégralement la fiche d'origine de l'incubateur.
 - [x] Établir méthode, registre de sources et premier catalogue de 12 brevets.
+- [x] Étendre à 20 documents en ouvrant trois nouveaux groupes (eau atmosphérique, échange thermique, dessalement par vagues).
+- [x] Examiner le lien entre brevets de l'eau atmosphérique et tester le plafond énergétique d'une turbine à 200 m de dénivelé.
 - [x] Écrire un modèle simple d'équilibre énergétique de rotor et six tests.
 - [x] Calculer 35 scénarios de sensibilité **illustratifs** avec export CSV.
 - [ ] P01 : extraire de NACA 1925 et d'études 2025–2026 des valeurs **mesurées** CL/CD/consommation rotor en fonction du ratio de vitesse de rotation ; comparer à l'étude actuelle et vérifier échelles, incertitudes et événements de sous-performance.
@@ -24,3 +26,10 @@
 
 ## Barrière de publication
 Aucun « prêt pour production », aucune sécurité garantie, aucun statut libre d'exploitation, et aucun pourcentage économisé **réel** à partir du script exploratoire. Les propositions expérimentales sur dispositifs sous pression, rotatifs, cryogéniques ou forte puissance exigent une revue de risque avant tout prototype.
+
+## Suite spécifique de la revue 02
+- [ ] P16 : obtenir le rapport d'essai originel d'exploitation, si existant ; comparer eau produite (L/m²/jour), humidité, solaire reçu, masse sorbant et entretien aux ouvrages de 1938, 1981 et 2023–2025.
+- [ ] P16 : auditer sans complaisance la mention du brevet de **turbine 200 m plus bas** : débit, durée des ventilateurs, pertes d'eau, stockage, ensoleillement, prise d'eau et risque de compter deux fois le dénivelé.
+- [ ] P13–P18 : modéliser le cycle de sorption comme **grappe de 5 brevets**, non 5 innovations indépendantes, avec deux contrôles modernes (sorbant solaire moderne et dessiccation/compression électrique).
+- [ ] P20 : relever pompe annoncée autour de 800 psi dans la revendication, lire essais hydrauliques et coûts ; convertir en kWh et m³ d'eau, vérifier état de mer et sécurité système.
+- [ ] Identifier 10 brevets hors secteurs thermo-hydraulique pour atteindre 30 documents couvrant réellement plusieurs marchés.

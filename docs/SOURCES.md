@@ -15,6 +15,14 @@
 | P10 | Réfrigération magnétique | [FR2601440B1](https://patents.google.com/patent/FR2601440B1/en) |
 | P11 | Stockage thermique avec changement de phase | [US4088183A](https://patents.google.com/patent/US4088183A/en) |
 | P12 | Moteur Stirling à piston libre | [FR2273939A1](https://patents.google.com/patent/FR2273939A1/en) |
+| P13 | capture eau atmospherique Altenkirch | [US2138689A](https://patents.google.com/patent/US2138689A/en) |
+| P14 | reactivation dessicant solaire Dunkak | [US2462952A](https://patents.google.com/patent/US2462952A/en) |
+| P15 | recuperateur thermique regeneratif | [US2643097A](https://patents.google.com/patent/US2643097A/en) |
+| P16 | eau atmosferique adsorbant avec stockage thermique | [US4146372A](https://patents.google.com/patent/US4146372A/en) |
+| P17 | capture eau air par adsorbeur MAN | [US4285702A](https://patents.google.com/patent/US4285702A/en) |
+| P18 | pompe vapeur a adsorbant thermique Motorola | [US4377398A](https://patents.google.com/patent/US4377398A/en) |
+| P19 | echange thermique air sol canalisation enterree | [US4234037A](https://patents.google.com/patent/US4234037A/en) |
+| P20 | pompe a vagues pour osmose inverse | [US4512886A](https://patents.google.com/patent/US4512886A/en) |
 
 Les notices Google Patents contiennent transcriptions OCR parfois imparfaites, classements et mentions de statut **non contractuelles**. Un numéro valide ne prouve pas que les revendications couvrent un produit envisagé.
 
@@ -37,3 +45,10 @@ Les notices Google Patents contiennent transcriptions OCR parfois imparfaites, c
 
 ## Règle de citation future
 Associer chaque chiffre à *valeur, unité, plage, publication, page/table, contexte géographique et date*, avec incertitudes. Aucun chiffre inventé ne doit être présenté comme extrait d'un brevet ou d'un article.
+
+## Résultats de lecture primaire plus approfondie (CR 02)
+- [US4146372A, partie description et abrégé](https://patents.google.com/patent/US4146372A/en) : mention explicite d'une implantation en altitude avec restitution hydroélectrique **au moins 200 m plus bas**, pour alimenter notamment des ventilateurs ; ne contient pas pour autant de preuve de boucle électrique auto-suffisante pour toute géométrie ni toute humidité.
+- [US4285702A, citations](https://patents.google.com/patent/US4285702A/en) relie l'antériorité [US2138689A](https://patents.google.com/patent/US2138689A/en) (1938) et [US4146372A](https://patents.google.com/patent/US4146372A/en) (1979) : cela documente une filiation technique **par citations**, pas une famille juridique unique.
+- [US4377398A](https://patents.google.com/patent/US4377398A/en) : document Motorola de pompe à vapeur actionnée par chaleur ; **continuation/division** mentionnée à analyser séparément pour l'étude juridique.
+- [US4512886A](https://patents.google.com/patent/US4512886A/en) : brevet 1985 visant une pompe entraînée par vagues reliée à une membrane d'osmose inverse ; à comparer aux technologies actuelles en €/m³ de perméat, pas seulement kWh/impulsion.
+- [US4146372A, section Cited By](https://patents.google.com/patent/US4146372A/en) cite des brevets publiés 2022–2025, y compris des entreprises récentes. **Une citation technique ne confère pas un statut d'expiration sur les titres récents.**

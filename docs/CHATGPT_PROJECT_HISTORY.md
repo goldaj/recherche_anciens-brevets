@@ -19,3 +19,9 @@ Dans `goldaj/projects-incubator`, le projet RETRO-LAB a été retenu. Il visait 
 
 ## Consigne pour le prochain agent
 Continuer à partir du dernier CR, pas à partir de nouvelles inventions spectaculaires non vérifiées. La prochaine valeur est une **mesure** et une comparaison concurrentielle qui peuvent contredire les hypothèses. Les recherches menées dans cette session sont bornées ; il n'existe pas de recherche permanente en arrière-plan sans automatisation explicite.
+
+## 2026-11-01 — Seconde vague de recherche (synthèse factuelle)
+- Recherche de citations croisées et 8 documents supplémentaires, notamment capture de l'eau atmosphérique depuis 1938, échangeurs de chaleur, puits canadien et osmose inverse alimentée par la houle.
+- Un brevet de 1979 (US4146372A) annonce la récupération de l'énergie de son eau produite dans une turbine disposée au moins 200 m plus bas. L'idée est étudiée par bilan d'énergie élémentaire sans lui attribuer de performance non mesurée.
+- CR 02, étude 02, calculateur, tests associés, mise à jour catalogue 20 documents.
+- Étapes non accomplies : essais physiques, calcul financier étayé, vérification de liberté d'exploitation par juridiction, calibration météo réelle.
