@@ -42,3 +42,7 @@ Aucun « prêt pour production », aucune sécurité garantie, aucun statut libr
 - [ ] P20 : caractériser les coûts et risques propres aux conduites hydrauliques haute pression ; aucune construction avant revue de sécurité.
 - [ ] P16 : utiliser la revue 2026 AWH comme trame pour benchmark (eau/jour/m², eau/kg sorbant, kWh thermiques & électriques/m³, coût total, potabilité et humidité).
 - [ ] P16 : ne pas comparer un rendement eau/kg de sorbant à un rendement eau/m²/jour sans rapporter masse chargée par surface et durée des cycles.
+
+## Garantie de continuité
+- [x] Introduire un garde-fou machine : tests de modèles + vérification hors ligne du catalogue et des chemins documentaires.
+- [ ] Ajouter vérification des identifiants de publication via API bibliographique (avec cache, limites de débit et provenance), sans dépendre d'une requête réseau non reproductible lors des tests unitaires.

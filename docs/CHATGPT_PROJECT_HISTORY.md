@@ -30,3 +30,8 @@ Continuer à partir du dernier CR, pas à partir de nouvelles inventions spectac
 - Recherche et lecture des résumés et éléments disponibles de la littérature (Das et al., 2024 ; revues 2025 et 2026) : la technologie de P20 est **déjà** développée et essayée, donc pas oubliée.
 - Premier benchmark énergétique pour P20 défini en unités cohérentes, avec récupération de saumure séparée et prise en compte du rendement de pompe.
 - CR 03 et ETUDE 03 avec calculateur et nouveaux tests. Le benchmark bibliographique n'est pas un résultat expérimental produit par ce laboratoire.
+
+## 2026-11-01 — Assurance qualité et reproductibilité
+- Contrôle des liens relatifs exécuté via l'arbre GitHub : aucun lien Markdown interne brisé détecté sur 13 documents.
+- Rectification d'un chemin de commande CLI dans README (le lien Markdown était déjà correct).
+- Ajout d'un validateur sans dépendances : intégrité du catalogue, unicité des références et liens internes, exécuté en CI avec les exercices de bilan.

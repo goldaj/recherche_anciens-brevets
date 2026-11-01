@@ -14,3 +14,9 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Reproduire le CSV
         run: python etudes/flettner/rotor_model.py --out /tmp/sensibilite_rotor.csv
+      - name: Contrôler les références et l'index
+        run: python tools/check_repository.py
+      - name: Exercices supplémentaires de validation numérique
+        run: |
+          python etudes/eau_atmospherique/gravity_budget.py --head-m 200 --liters-per-day 10 --efficiency 0.6 --fan-w 1.0
+          python etudes/dessalement_vagues/ro_pressure_budget.py --pressure-psi 800 --recovery 0.4 --pump-efficiency 0.85

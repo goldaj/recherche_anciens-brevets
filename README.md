@@ -8,12 +8,15 @@
 - Troisième étude de comparaison : [osmose inverse entraînée par la houle](etudes/dessalement-vagues/ETUDE_03.md), avec [simulateur de pression et débit](etudes/dessalement_vagues/ro_pressure_budget.py), [tests](tests/test_ro_pressure_budget.py).
 - Deuxième étude de falsification : [eau atmosphérique et hydroélectricité](etudes/eau-atmospherique/ETUDE_02.md), avec [calculateur](etudes/eau_atmospherique/gravity_budget.py) et [tests](tests/test_gravity_budget.py).
 - Première expérience paramétrique : [rotor Flettner](etudes/flettner/ETUDE_01.md), [modèle Python](etudes/flettner/rotor_model.py), [résultats CSV](resultats/sensibilite_rotor.csv), [tests](tests/test_rotor_model.py).
+- Contrôles de qualité : [vérificateur de liens et d'identifiants](tools/check_repository.py), exécuté sur GitHub Actions.
 - [Méthode de recherche](docs/METHODOLOGIE.md), [références](docs/SOURCES.md), [plan de recherche](docs/PROCHAINES_ETAPES.md).
 
 ### Reproduire
 ```bash
 python3 -m unittest discover -s tests -v
-python3 etudes/eau-atmospherique/gravity_budget.py --head-m 200 --liters-per-day 10 --efficiency 0.6 --fan-w 1.0
+python3 etudes/eau_atmospherique/gravity_budget.py --head-m 200 --liters-per-day 10 --efficiency 0.6 --fan-w 1.0
+python3 etudes/dessalement_vagues/ro_pressure_budget.py --pressure-psi 800 --recovery 0.4 --pump-efficiency 0.85
+python3 tools/check_repository.py
 python3 etudes/flettner/rotor_model.py --out resultats/sensibilite_rotor.csv
 python3 etudes/flettner/rotor_model.py --lift 2.0 --drive-kw 30 --out resultats/sensibilite_prudente.csv
 ```
