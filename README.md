@@ -4,7 +4,8 @@
 
 ## Avancement vérifiable
 - **20 documents de brevet identifiés**, avec liens permanents, hypothèses et limites dans [le catalogue](data/candidats.csv). Niveau actuel : *tri documentaire*, pas validation industrielle.
-- Revues documentaires successives : [CR 01, 12 brevets](docs/CR_2026-11-01_REVUE_01.md) et [CR 02, 8 brevets supplémentaires](docs/CR_2026-11-01_REVUE_02.md).
+- Revues documentaires successives : [CR 01, 12 brevets](docs/CR_2026-11-01_REVUE_01.md), [CR 02, 8 brevets supplémentaires](docs/CR_2026-11-01_REVUE_02.md) et [CR 03, confrontation aux essais récents](docs/CR_2026-11-01_REVUE_03.md).
+- Troisième étude de comparaison : [osmose inverse entraînée par la houle](etudes/dessalement-vagues/ETUDE_03.md), avec [simulateur de pression et débit](etudes/dessalement_vagues/ro_pressure_budget.py), [tests](tests/test_ro_pressure_budget.py).
 - Deuxième étude de falsification : [eau atmosphérique et hydroélectricité](etudes/eau-atmospherique/ETUDE_02.md), avec [calculateur](etudes/eau_atmospherique/gravity_budget.py) et [tests](tests/test_gravity_budget.py).
 - Première expérience paramétrique : [rotor Flettner](etudes/flettner/ETUDE_01.md), [modèle Python](etudes/flettner/rotor_model.py), [résultats CSV](resultats/sensibilite_rotor.csv), [tests](tests/test_rotor_model.py).
 - [Méthode de recherche](docs/METHODOLOGIE.md), [références](docs/SOURCES.md), [plan de recherche](docs/PROCHAINES_ETAPES.md).

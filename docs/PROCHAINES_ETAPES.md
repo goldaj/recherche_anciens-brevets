@@ -33,3 +33,12 @@ Aucun « prêt pour production », aucune sécurité garantie, aucun statut libr
 - [ ] P13–P18 : modéliser le cycle de sorption comme **grappe de 5 brevets**, non 5 innovations indépendantes, avec deux contrôles modernes (sorbant solaire moderne et dessiccation/compression électrique).
 - [ ] P20 : relever pompe annoncée autour de 800 psi dans la revendication, lire essais hydrauliques et coûts ; convertir en kWh et m³ d'eau, vérifier état de mer et sécurité système.
 - [ ] Identifier 10 brevets hors secteurs thermo-hydraulique pour atteindre 30 documents couvrant réellement plusieurs marchés.
+
+## Troisième revue : connaissance contemporaine et définition d'un benchmark
+- [x] P20 : identifier **un essai publié** de dessalement entraîné par les vagues, pas seulement une notice de brevet (Das et al., 2024).
+- [x] P20 : comparer les équations de pression/débit d'un procédé RO à 800 psi avec et sans récupération d'énergie (analyse de bornes, **pas** simulation hydrodynamique).
+- [ ] P20 : lire le texte intégral Das et al. 2024 et relever la définition exacte du SEC, mode de mesure des pertes, variabilité des vagues et fréquence des inversions de flux ; obtenir les barres d'erreur.
+- [ ] P20 : établir LCOE de la source mécanique et **LCOW (€/m³ d'eau)** en zone côtière, comparer à panneaux solaires + SWRO + batterie, incluant entretien, corrosion et arrêts.
+- [ ] P20 : caractériser les coûts et risques propres aux conduites hydrauliques haute pression ; aucune construction avant revue de sécurité.
+- [ ] P16 : utiliser la revue 2026 AWH comme trame pour benchmark (eau/jour/m², eau/kg sorbant, kWh thermiques & électriques/m³, coût total, potabilité et humidité).
+- [ ] P16 : ne pas comparer un rendement eau/kg de sorbant à un rendement eau/m²/jour sans rapporter masse chargée par surface et durée des cycles.

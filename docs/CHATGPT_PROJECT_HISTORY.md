@@ -25,3 +25,8 @@ Continuer à partir du dernier CR, pas à partir de nouvelles inventions spectac
 - Un brevet de 1979 (US4146372A) annonce la récupération de l'énergie de son eau produite dans une turbine disposée au moins 200 m plus bas. L'idée est étudiée par bilan d'énergie élémentaire sans lui attribuer de performance non mesurée.
 - CR 02, étude 02, calculateur, tests associés, mise à jour catalogue 20 documents.
 - Étapes non accomplies : essais physiques, calcul financier étayé, vérification de liberté d'exploitation par juridiction, calibration météo réelle.
+
+## 2026-11-01 — Troisième vague, vérification expérimentale indépendante
+- Recherche et lecture des résumés et éléments disponibles de la littérature (Das et al., 2024 ; revues 2025 et 2026) : la technologie de P20 est **déjà** développée et essayée, donc pas oubliée.
+- Premier benchmark énergétique pour P20 défini en unités cohérentes, avec récupération de saumure séparée et prise en compte du rendement de pompe.
+- CR 03 et ETUDE 03 avec calculateur et nouveaux tests. Le benchmark bibliographique n'est pas un résultat expérimental produit par ce laboratoire.
