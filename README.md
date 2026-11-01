@@ -32,6 +32,7 @@ Les prochains dossiers possèdent des **issues GitHub** avec hypothèses et crit
 Cette liste est un plan de recherche versionné, **pas** une exécution automatique continue entre conversations. Voir aussi [le backlog](docs/PROCHAINES_ETAPES.md).
 
 ## Nouvelle phase : combiner les brevets, puis chercher à réfuter
+- [CR 05 — Frontières et limites](docs/CR_2026-11-01_REVUE_05_FRONTIERES.md) et [protocole factoriel C01](docs/PROTOCOLE_C01_AWH_FACTORIEL.md), avec [outil de sensibilité](etudes/combinaisons/frontier.py) et [résultats CSV](resultats/frontieres_assemblages.csv).
 - [CR 04 — Assemblages de brevets](docs/CR_2026-11-01_REVUE_04_ASSEMBLAGES.md), [matrice de 10 architectures](docs/MATRICE_ASSEMBLAGES.md) et [données structurées](data/combinaisons.csv).
 - [Étude 04 : trois bilans physiques contradictoires](etudes/combinaisons/ETUDE_04_BILANS.md), [script reproductible](etudes/combinaisons/hybrid_budgets.py), [CSV des 15 résultats](resultats/assemblages_scenarios.csv).
 - [Registre des sources originales et essais récents](docs/SOURCES_ASSEMBLAGES.md). Une architecture composite déjà décrite ne constitue pas une nouvelle invention.
@@ -40,6 +41,7 @@ Cette liste est un plan de recherche versionné, **pas** une exécution automati
 ```bash
 python3 -m unittest discover -s tests -v
 python3 -m etudes.combinaisons.hybrid_budgets
+python3 -m etudes.combinaisons.frontier
 python3 tools/check_repository.py
 ```
 

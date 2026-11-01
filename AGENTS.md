@@ -26,3 +26,6 @@ Dépôt public : pas d'identifiants, secrets, informations privées ou documents
 
 ## Croisement de brevets (phase du 2026-11-01)
 Lire `docs/MATRICE_ASSEMBLAGES.md`, `docs/SOURCES_ASSEMBLAGES.md` et le CR04 avant d'ajouter des idées. Chercher dans les **revendications historiques** et essais modernes l'antériorité de chaque couplage. Chiffrer chaque interface (température, pression, débit, rendement) et ne pas valider une combinaison grâce aux performances d'une seule étape.
+
+## Sensibilité et préenregistrement (CR05)
+Consulter `docs/CR_2026-11-01_REVUE_05_FRONTIERES.md` et `docs/PROTOCOLE_C01_AWH_FACTORIEL.md`. Une publication avec plusieurs facteurs modifiés simultanément **ne prouve pas l'effet causal d'un seul facteur**. Conserver les modèles élémentaires indépendants des données d'essai, qui restent à obtenir.

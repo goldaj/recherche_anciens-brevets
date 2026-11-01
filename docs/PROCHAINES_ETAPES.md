@@ -56,3 +56,11 @@ Aucun « prêt pour production », aucune sécurité garantie, aucun statut libr
 - [ ] C08 : vérifier chaleur de rejet utile selon sorbant, débits et températures mesurés ; comparaison cogénération vs chaleur directe.
 - [ ] C09 : modéliser **chaîne complète** de désorption vibratoire jusqu'à eau potable collectée ; rejeter si comparateur thermique moderne meilleur.
 - [ ] Identifier des brevets hors énergie et eau pour éviter biais du corpus.
+
+## Phase 05 : seuils et expérimentation préenregistrée
+- [x] Sensibilité de la capacité de l'accumulateur aux pressions minimales 50–65 bar, borne haute 70 bar.
+- [x] Seuil thermique Stirling pour électricité nette sous rejet 90°C, rendement partiel Carnot et charge auxiliaire explicitée.
+- [x] Seuil de débit gravitaire pour 1W continu à 200 et 1000m.
+- [x] Préenregistrer un plan factoriel C01 évitant de changer simultanément PCM et sorbant dans une comparaison à deux bras.
+- [ ] Exploiter séries de tests de salinité marine et météo/pression, non interpolations inventées.
+- [ ] Pour C01, identifier instruments de mesure fiables et le budget d'une expérimentation sûre, puis réaliser pilote et calcul taille échantillon.

@@ -22,3 +22,5 @@ jobs:
           python etudes/dessalement_vagues/ro_pressure_budget.py --pressure-psi 800 --recovery 0.4 --pump-efficiency 0.85
       - name: Reproduire les calculs hybrides
         run: python -m etudes.combinaisons.hybrid_budgets --out /tmp/assemblages_scenarios.csv
+      - name: Reproduire les frontieres des assemblages
+        run: python -m etudes.combinaisons.frontier --out /tmp/frontieres_assemblages.csv

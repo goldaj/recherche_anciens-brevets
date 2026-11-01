@@ -44,3 +44,7 @@ Continuer à partir du dernier CR, pas à partir de nouvelles inventions spectac
 **Utilisateur (verbatim)** : « Recherche plus loin. Plus en profondeur. Et peut-être en assemblant plusieurs brevets ensemble ».
 **Utilisateur (verbatim, après interruption)** : « t'as crash, reprends ».
 **Assistant (synthèse factuelle, non verbatim)** : reprise après vérification de main ; constitution de 10 assemblages, ajout de FR2378958A1 au corpus, CR04, références indépendantes, étude de 3 bilans avec 15 sorties CSV, tests unitaires et intégration CI. Aucun prototype réel ni libre exploitation affirmé.
+
+## 2026-11-01 — Sensibilité complémentaire après reprise (résumé non verbatim)
+- L'agent a calculé les frontières C02 (eau minimale nécessaire pour couvrir un ventilateur), C03 (volume tampon lorsque la pression minimale augmente), C08 (température de source minimale pour électricité positive sous hypothèses).
+- CR05, protocole expérimental C01, outil Python de balayage des seuils, tests et CSV de 19 sorties ajoutés. Ce sont des **calculs** sous hypothèses définies, non une validation économique ou technique d'un dispositif.

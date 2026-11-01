@@ -23,3 +23,5 @@
 - Les résumés et parties accessibles des textes ont été vérifiés ; tous les PDF supplémentaires, paramètres et jeux de données brutes **n'ont pas été analysés intégralement**.
 - Une citation entre brevets ne démontre pas l'appartenance à une famille juridique ; une combinaison peut être connue et rester techniquement intéressante.
 - Aucune analyse complète de liberté d'exploitation, territoire par territoire. Aucune validation de sécurité industrielle.
+
+- [Revue scientifique sur les membranes SWRO, 2021](https://www.sciencedirect.com/science/article/pii/S0376738821002416) : pression typique 55–70 bar sur eau de mer, à ne pas confondre avec une limite universelle ; les publications techniques mélangent parfois pressions absolues et manométriques.
