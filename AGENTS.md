@@ -2,7 +2,7 @@
 
 ## Avant une modification
 1. Lire `README.md`, `docs/METHODOLOGIE.md`, `docs/CHATGPT_PROJECT_HISTORY.md`, le dernier CR et `docs/PROCHAINES_ETAPES.md`.
-2. Inspecter les autres branches et les contributions concurrentes avant toute fusion.
+2. Inspecter les [issues ouvertes](https://github.com/goldaj/recherche_anciens-brevets/issues), les autres branches et les contributions concurrentes avant toute fusion. Travailler sur les hypothèses et critères d'acceptation déjà définis.
 3. Préserver les documents sources, hypothèses négatives et versions antérieures. Pas de suppression silencieuse des résultats contradictoires.
 
 ## Preuves et attribution

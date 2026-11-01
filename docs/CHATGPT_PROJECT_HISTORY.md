@@ -35,3 +35,7 @@ Continuer à partir du dernier CR, pas à partir de nouvelles inventions spectac
 - Contrôle des liens relatifs exécuté via l'arbre GitHub : aucun lien Markdown interne brisé détecté sur 13 documents.
 - Rectification d'un chemin de commande CLI dans README (le lien Markdown était déjà correct).
 - Ajout d'un validateur sans dépendances : intégrité du catalogue, unicité des références et liens internes, exécuté en CI avec les exercices de bilan.
+
+## 2026-11-01 — Passage à une gestion de recherche itérative
+- Quatre issues GitHub ouvertes (#1 à #4) pour conserver hypothèses, preuves exigées, risques et critères d'acceptation.
+- Dernier workflow de vérification des tests et du catalogue : succès. Les travaux futurs devront ajouter les sources et preuves au CR suivant, sans déclarer l'autonomie du projet en arrière-plan.

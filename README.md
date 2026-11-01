@@ -22,6 +22,15 @@ python3 etudes/flettner/rotor_model.py --lift 2.0 --drive-kw 30 --out resultats/
 ```
 Python 3.10+ ; aucune dépendance externe.
 
+## Suivi de la recherche et prochaines expériences
+Les prochains dossiers possèdent des **issues GitHub** avec hypothèses et critères de validation :
+- [#1 — Dessalement par vagues : valider les essais 2024](https://github.com/goldaj/recherche_anciens-brevets/issues/1)
+- [#2 — Eau atmosphérique : bilan chaleur/eau/électricité](https://github.com/goldaj/recherche_anciens-brevets/issues/2)
+- [#3 — Rotor Flettner : polaires et météo réelles](https://github.com/goldaj/recherche_anciens-brevets/issues/3)
+- [#4 — Corpus à 30 brevets, diversification sectorielle](https://github.com/goldaj/recherche_anciens-brevets/issues/4)
+
+Cette liste est un plan de recherche versionné, **pas** une exécution automatique continue entre conversations. Voir aussi [le backlog](docs/PROCHAINES_ETAPES.md).
+
 ## Discipline
 1. Lire brevet + revendications + famille + statut légal territorial ; ne jamais déduire la liberté d'exploitation d'un simple champ « expired ».
 2. Séparer **principe historique**, **variante modernisée**, **solution déjà dominante aujourd'hui**.
